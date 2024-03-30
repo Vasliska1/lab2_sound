@@ -1,0 +1,3 @@
+Speaker_ID Gender Path
+id10271 m ./id10271/1gtz-CUIygI/00006.wav
+id10284 f ./id10284/7yx9A0yzLYk/00008.wav
