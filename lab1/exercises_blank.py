@@ -73,7 +73,7 @@ def framing(emphasized_signal, sample_rate=16000, frame_size=0.025, frame_stride
     for i in range(num_frames):
         star_index = i * frame_step
         stop_index = star_index + frame_length
-        frames[i] = pad_signal[star_index:stop_index]
+        frames[i] = pad_signal[star_index:stop_index] * np.hamming(frame_length)
     ###########################################################
 
     return frames
